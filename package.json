@@ -1,0 +1,41 @@
+{
+  "name": "9gag-challenge",
+  "version": "0.1.0",
+  "description": "9Gag Offline Coding Challenge 2016",
+  "main": "index.js",
+  "scripts": {
+    "start": "redis-server & node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/denistsoi/9gag-challenge.git"
+  },
+  "keywords": [
+    "9Gag",
+    "Interview",
+    "Challenge"
+  ],
+  "author": "Denis Tsoi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denistsoi/9gag-challenge/issues"
+  },
+  "browserify": {
+    "transform": [
+      "html2js-browserify"
+    ]
+  },
+  "homepage": "https://github.com/denistsoi/9gag-challenge",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "enchilada": "^0.13.0",
+    "express": "^4.14.0",
+    "flat": "^2.0.1",
+    "html2js-browserify": "^1.1.0",
+    "quesadilla": "^2.0.0",
+    "redis": "^2.6.2",
+    "request": "^2.73.0",
+    "vue-router": "^0.7.13"
+  }
+}
