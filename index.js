@@ -25,7 +25,7 @@ client.on('error', function(err, res) {
  * check if data exists; crawl and save to redis
  */
 
-client.lindex('9gag', '0', function(err, value) {
+client.lindex(config.redis_hashkey, '0', function(err, value) {
   if (!value) {
     crawler();
   }
