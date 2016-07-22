@@ -7,14 +7,14 @@
 
 ### TODO
 
-[x] scrape
-[x] flushall 
-[x] save to redis
-[x] render fetch
-[ ] add tests
-[ ] render on page
-[ ] fetch (infinite scroll)
-[ ] diff patch
+[x] scrape  
+[x] flushall   
+[x] save to redis  
+[x] render fetch  
+[ ] add tests  
+[ ] render on page  
+[ ] fetch (infinite scroll)  
+[ ] diff patch  
 
 ### Development
 
@@ -27,13 +27,14 @@
 
 You'll need to have installed `redis` and `node` on your local machine. 
 
-if you currently have `redis` installed localled; as a *precaution*, 
-please change the `redis_hashkey` from `9gag` to another hashkey if you have data already stored in that location.
+if you currently have `redis` installed locally; as a *precaution*,   
+please change the `redis_hashkey` from `9gag` to another hashkey if you have data already stored in that location.  
 
-if you want to show the prints from `redis` and `node` in separate windows; 
+if you want to show the prints from `redis` and `node` in separate windows;   
 please use the commands `redis-server` and `node index.js` separately rather than `npm start`  
 
-Also, for the local config variables in `api.js`, please save the instagram credientials in your local `bash/zshrc` as exports
+Also, for the local config variables in `api.js`,   
+please save the instagram credientials in your local `bash/zshrc` as exports
 
 [as of 22 Jul 2016]
 - This project has very minimal frontend due to illness; however, I'll add more as I have more time.
